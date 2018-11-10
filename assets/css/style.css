@@ -215,6 +215,18 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+@media screen and (max-width: 360px) {
+  nav a {
+    text-align: center;
+    width: 25.0%;
+    float: left;
+    display: inline-block;
+    padding: 5px;
+    font-size: 18px;
+    margin-left: 8px;
+    
+  }
+}
 
 @media screen and (max-width: 640px) {
  
